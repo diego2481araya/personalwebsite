@@ -1,0 +1,22 @@
+   body {
+   background-color: azure;
+   font-family: arial;
+   }
+   hr {
+   border-style:dotted none none;
+   border-width: 5px;
+   border-color: grey;
+   width: 5%;
+   }
+   img {
+   width:300px
+   }
+   h1 {
+   color: #66bfbf;
+   }
+   h2 {
+   color: #66bfbf;
+   }
+   h3 {
+   color: #66bfbf;
+   }
