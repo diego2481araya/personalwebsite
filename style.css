@@ -1,0 +1,42 @@
+   body {
+   background-color: azure;
+   font-family: arial;
+   }
+   hr {
+   border-style:dotted none none;
+   border-width: 5px;
+   border-color: grey;
+   width: 5%;
+   }
+   img {
+   width:300px
+   }
+   h1 {
+   color: #66bfbf;
+   }
+   h2 {
+   color: #66bfbf;
+   }
+   h3 {
+   color: #66bfbf;
+   }
+   nav {
+     border-bottom: 1px solid black;
+     width: 20%;
+   }
+   .crumbs ol{
+     list-style-type: none;
+     padding-left: 0;
+   }
+   .crumb {
+    display: inline-block;
+   }
+
+  .crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+   }
